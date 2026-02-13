@@ -13,7 +13,7 @@ mkdir -p "$RESOURCES_DIR"
 
 # Compile Swift code
 echo "Compiling Swift code..."
-swiftc -parse-as-library CameraLightMac.swift -o "$MACOS_DIR/$APP_NAME"
+swiftc -parse-as-library NotificationLightMac.swift -o "$MACOS_DIR/$APP_NAME"
 
 # Create Info.plist
 echo "Creating Info.plist..."

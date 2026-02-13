@@ -3,6 +3,10 @@
 ## macOS Version
 App: `CameraLight.app` (in this folder)
 
+### Files
+- `NotificationLightMac.swift`: Main application logic (Mac).
+- `build_app.sh`: Script to compile and bundle the app.
+
 ### Features
 - **Manual Toggle**: Click the camera button to toggle the green light.
 - **Notification Monitoring**: The green light flashes when a selected app sends a notification.
