@@ -26,6 +26,7 @@ App: `NotificationLight.app` (in this folder)
     - When that app sends a notification (banner appears), the green light will flash!
 
 ### Troubleshooting
-- If the Accessibility permission seems "stuck" (you granted it but the app says otherwise), try removing the app from the Accessibility list in System Settings and adding it again, or restart the app.
+- If the Accessibility permission seems "stuck" (you granted it but the app says otherwise), try restarting the app. If that doesnt work, try removing the app from the Accessibility list in System Settings and adding it again, or restart the app.
 - Ensure "Allow Notifications" is ON for the apps you are watching in System Settings > Notifications. The banner must appear for the app to detect it.
 - To test out if the app is working correctly, you can turn on debug logs from settings.
+- If you get an error while opening the app, try to go to system settings -> Security & Privacy -> Confirm opening the app. (This is because of MacOS's strict notarisation policy. (To avoid all this you can disable gatekeeper too at your own risk)
