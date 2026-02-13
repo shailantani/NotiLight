@@ -1,6 +1,6 @@
-# Notification Light App
+# NotiLight
 
-A simple app that turns on the Camera Indicator light to show any important notifications that you dont want to miss!
+A simple app that turns the Camera Indicator light on to show any important notifications that you dont want to miss!
 
 ### Features
 - **Manual Toggle**: Click the camera button to toggle the green light.
