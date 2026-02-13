@@ -6,7 +6,8 @@ import ApplicationServices
 import CoreImage
 
 @main
-struct CameraLightMacApp: App {
+struct NotificationLightMacApp: App {
+
     @StateObject private var appSelectionManager = AppSelectionManager()
     
     var body: some Scene {

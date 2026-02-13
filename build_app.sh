@@ -1,7 +1,8 @@
 #!/bin/bash
 set -e
 
-APP_NAME="CameraLight"
+
+APP_NAME="NotificationLight"
 APP_DIR="$APP_NAME.app"
 CONTENTS_DIR="$APP_DIR/Contents"
 MACOS_DIR="$CONTENTS_DIR/MacOS"
@@ -25,7 +26,7 @@ cat > "$CONTENTS_DIR/Info.plist" <<EOF
     <key>CFBundleExecutable</key>
     <string>$APP_NAME</string>
     <key>CFBundleIdentifier</key>
-    <string>com.user.CameraLight</string>
+    <string>com.user.NotificationLight</string>
     <key>CFBundleName</key>
     <string>$APP_NAME</string>
     <key>CFBundlePackageType</key>

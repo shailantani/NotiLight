@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-APP_NAME="CameraLight"
+APP_NAME="NotificationLight"
 APP_BUNDLE="${APP_NAME}.app"
 DMG_NAME="${APP_NAME}.dmg"
 VOL_NAME="${APP_NAME}"
