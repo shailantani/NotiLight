@@ -2,13 +2,6 @@
 
 A simple app that turns on the Camera Indicator light to show any important notifications that you dont want to miss!
 
-## macOS Version
-App: `NotificationLight.app` (in this folder)
-
-### Files
-- `NotificationLightMac.swift`: Main application logic (Mac).
-- `build_app.sh`: Script to compile and bundle the app.
-
 ### Features
 - **Manual Toggle**: Click the camera button to toggle the green light.
 - **Notification Monitoring**: The green light flashes when a selected app sends a notification.
