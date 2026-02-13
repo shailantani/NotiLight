@@ -41,6 +41,17 @@ cat > "$CONTENTS_DIR/Info.plist" <<EOF
     <string>The camera is used to turn on the green indicator light.</string>
     <key>CFBundleIconFile</key>
     <string>AppIcon</string>
+    <key>CFBundleURLTypes</key>
+    <array>
+        <dict>
+            <key>CFBundleURLName</key>
+            <string>com.user.NotificationLight</string>
+            <key>CFBundleURLSchemes</key>
+            <array>
+                <string>notilight</string>
+            </array>
+        </dict>
+    </array>
 </dict>
 </plist>
 EOF

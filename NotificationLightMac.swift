@@ -765,5 +765,30 @@ struct ContentView: View {
                 // but HiddenTitleBarWindowStyle likely adds it anyway.
             }
         })
+        .onOpenURL(perform: handleDeepLink)
+    }
+
+    
+    func handleDeepLink(_ url: URL) {
+        guard url.scheme == "notilight" else { return }
+        
+        switch url.host {
+        case "start":
+            appManager.isMonitoring = true
+        case "stop":
+            appManager.isMonitoring = false
+        case "toggle":
+            appManager.isMonitoring.toggle()
+        case "clear":
+            appManager.activeAppIDs.removeAll()
+        case "test":
+            cameraManager.toggleCamera()
+        case "settings":
+            showSettings = true
+        case "add":
+            appManager.addApp()
+        default:
+            print("Unknown deep link: \(url)")
+        }
     }
 }
