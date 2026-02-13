@@ -38,9 +38,17 @@ cat > "$CONTENTS_DIR/Info.plist" <<EOF
     <true/>
     <key>NSCameraUsageDescription</key>
     <string>The camera is used to turn on the green indicator light.</string>
+    <key>CFBundleIconFile</key>
+    <string>AppIcon</string>
 </dict>
 </plist>
 EOF
+
+# Copy App Icon
+echo "Copying App Icon..."
+if [ -f "AppIcon.icns" ]; then
+    cp "AppIcon.icns" "$RESOURCES_DIR/AppIcon.icns"
+fi
 
 # Sign the app (ad-hoc signing for local execution)
 echo "Signing app..."
