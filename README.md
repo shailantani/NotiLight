@@ -4,12 +4,14 @@ A simple app that turns the Camera Indicator light on to show any important noti
 
 ### Features
 - **Manual Toggle**: Click the camera button to toggle the green light.
-- **Notification Monitoring**: The green light flashes when a selected app sends a notification.
+- **Notification Monitoring**: The green light turns on when a selected app sends a notification.
 
 ### Images
 <img width="916" height="469" alt="Screenshot 2026-02-13 at 3 41 19 PM" src="https://github.com/user-attachments/assets/a80d8f37-c59d-40f2-a27d-393743371a94" />
 
 <img width="907" height="457" alt="Screenshot 2026-02-13 at 3 43 39 PM" src="https://github.com/user-attachments/assets/acc23532-d10f-4ce0-b6ca-57d5bfcf0472" />
+|
+(Also added a demo video (low quality oops) inside the Media folder) 
 
 ### Setup Instructions
 1.  **Run the App**:
