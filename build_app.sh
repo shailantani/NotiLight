@@ -47,8 +47,8 @@ EOF
 
 # Copy App Icon
 echo "Copying App Icon..."
-if [ -f "AppIcon.icns" ]; then
-    cp "AppIcon.icns" "$RESOURCES_DIR/AppIcon.icns"
+if [ -f "Resources/AppIcon.icns" ]; then
+    cp "Resources/AppIcon.icns" "$RESOURCES_DIR/AppIcon.icns"
 fi
 
 # Sign the app (ad-hoc signing for local execution)
